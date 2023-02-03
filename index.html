@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="/script.js"></script>
+  <title>DG Academy</title>
+
+  <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+  <div style="
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 150px;
+        background-color: black;
+        margin: 0;
+        box-shadow: inset 0 -1px 0 #29292e;
+      ">
+    <img src="/dgIconD.svg" style="width: 50px; height: 50px" alt="" />
+
+    <nav style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 15px;
+        ">
+      <a href="/" style="color: white; text-decoration: none; font-size: 20px">Método</a>
+      <a href="/Manifesto" style="color: white; text-decoration: none; font-size: 20px">Manifesto</a>
+      <a href="/Contato" style="color: white; text-decoration: none; font-size: 20px">Contato</a>
+      <a href="/Blog" style="color: white; text-decoration: none; font-size: 20px">Blog</a>
+    </nav>
+
+    <a href="" style="
+          background: #945fff;
+          padding: 10px 20px;
+          color: white;
+          border-radius: 50px;
+          text-decoration: none;
+        ">Já sou cliente</a>
+  </div>
+
+  <div style="background-color: #945fff">
+    <div style="
+          display: flex;
+          width: 60%;
+          margin: 0 auto;
+          gap: 80px;
+          padding: 165px 0;
+        ">
+      <img src="/dgIconD.svg" style="width: 185px; height: 207px" alt="" />
+
+      <div style="width: 60%">
+        <h2 style="
+              font-size: 43px;
+              color: white;
+              font-weight: 500;
+              margin: 0;
+              line-height: 1.1em;
+            ">
+          Novas variáveis de mundo pedem novas soluções de
+          <span style="color: black; font-weight: 700">Marketing</span>
+        </h2>
+        <p style="color: #d9d1e1; font-size: 15px">
+          A Dgthus Company é uma martech com foco em geração de demanda
+          qualificada, previsibilidade de vendas e assertividade nas
+          estratégias digitais utilizando os fundamentos do marketing de
+          performance alinhados ao poder da tecnologia, por bigData Analytcs e
+          Inteligência artificial.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal_cookie">
+    <div style="display: flex; gap: 20px; width: 80%; margin: 0 auto;">
+      <div>
+        <img src="/dgIconD.svg" style="width: 50px; height: 50px" alt="" />
+      </div>
+      <div style="display: grid; row-gap: 10px;">
+        <h2 style="margin: 0; color: #a8a8b3">Este website utiliza cookies</h2>
+        <span style="color: #a8a8b3">Esse site utiliza cookies para personalizar e aprimorar a
+          experiência, além de fornecer funcionalidades de redes sociais e
+          analisar o nosso tráfego</span>
+        <button id="btn_aceitar" style="
+            cursor: pointer;
+            background: #945fff;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 50px;
+            text-decoration: none;
+            width: max-content;
+          ">
+          Já sou cliente
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+  <script>
+
+    // Esconde o modal de cookie // Funçao de Click no Button
+
+    // remover class show-cookie
+
+    // setar no local storage com chave e valor "modal-cookie", "true"
+
+
+    // Valida se o modal está no storage do navegador
+
+    // condicao de pegar a chave comparar valor e remover class show-cookie
+
+    // se nao adiciona class show-cookie
+
+    // setTimeout
+    setTimeout(showCookiees, 2000);
+  </script>
+</body>
+
+</html>

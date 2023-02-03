@@ -1,0 +1,28 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #18171f;
+  height: 1000px;
+}
+
+div#modal_cookie {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  display: none;
+  z-index: 100000;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+div#modal_cookie.show-cookie {
+  display: grid;
+  gap: 10px;
+}
